@@ -1,1 +1,44 @@
 /* to show your CSS things, you'll likely need to use this file */
+
+#image_background {
+    background-image: url("https://i.pinimg.com/originals/f2/65/68/f26568ac8253e4502c0e98b469c9051a.jpg");
+}
+
+#first_div {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Segoe UI;
+}
+
+#spacer {
+    padding-top: 100px;
+}
+
+#first_picture {
+    width: 420x;
+    height: 345x;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+  }
